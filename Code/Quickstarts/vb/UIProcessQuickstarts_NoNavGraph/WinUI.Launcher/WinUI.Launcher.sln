@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinUI.Launcher", "WinUI.Launcher.vbproj", "{555933DE-A821-4D63-B879-9727FF8AAF64}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{555933DE-A821-4D63-B879-9727FF8AAF64}.Debug.ActiveCfg = Debug|.NET
+		{555933DE-A821-4D63-B879-9727FF8AAF64}.Debug.Build.0 = Debug|.NET
+		{555933DE-A821-4D63-B879-9727FF8AAF64}.Release.ActiveCfg = Release|.NET
+		{555933DE-A821-4D63-B879-9727FF8AAF64}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

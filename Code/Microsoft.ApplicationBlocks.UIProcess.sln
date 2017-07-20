@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIProcess", "Microsoft.ApplicationBlocks.UIProcess\Microsoft.ApplicationBlocks.UIProcess.csproj", "{A775222D-A004-4601-A8A8-F6E8EA2348D5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ApplicationBlocks.Data", "Microsoft.ApplicationBlocks.Data\Microsoft.ApplicationBlocks.Data.csproj", "{30933672-466E-4F67-A111-ABF267539146}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		DataSet = DataSet
+		Debug = Debug
+		Entity = Entity
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.DataSet.ActiveCfg = Debug__mstuart__02272003_refactoring|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.DataSet.Build.0 = Debug__mstuart__02272003_refactoring|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Debug.ActiveCfg = Debug|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Debug.Build.0 = Debug|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug__mstuart__02272003_refactoring|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Entity.ActiveCfg = Debug__mstuart__02272003_refactoring|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Entity.Build.0 = Debug__mstuart__02272003_refactoring|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Release.ActiveCfg = Release|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Release.Build.0 = Release|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.DataSet.ActiveCfg = Debug__mstuart__02272003_refactoring|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.DataSet.Build.0 = Debug__mstuart__02272003_refactoring|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Debug.ActiveCfg = Debug|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Debug.Build.0 = Debug|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug__mstuart__02272003_refactoring|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Entity.ActiveCfg = Debug__mstuart__02272003_refactoring|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Entity.Build.0 = Debug__mstuart__02272003_refactoring|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Release.ActiveCfg = Release|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		XCSharpSolutionEnabled = False
+		XCSharpProjectsDisabled = 
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

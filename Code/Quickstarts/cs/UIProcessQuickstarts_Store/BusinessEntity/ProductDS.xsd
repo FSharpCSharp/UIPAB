@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ProductDS" targetNamespace="http://tempuri.org/ProductDS.xsd" elementFormDefault="qualified"
+	xmlns="http://tempuri.org/ProductDS.xsd" xmlns:mstns="http://tempuri.org/ProductDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:codegen="urn:schemas-microsoft-com:xml-msprop">
+	<xs:element name="product" codegen:typedName="Product" codegen:typedPlural="Products">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ProductID" codegen:typedName="ProductId" type="xs:int" />
+				<xs:element name="CategoryID" codegen:typedName="CategoryId" type="xs:int" />
+				<xs:element name="ModelNumber" codegen:typedName="ModelNumber" type="xs:string" />
+				<xs:element name="ModelName" codegen:typedName="ModelName" type="xs:string" />
+				<xs:element name="ProductImage" codegen:typedName="ProductImage" type="xs:string" />
+				<xs:element name="UnitCost" codegen:typedName="UnitCost" type="xs:decimal" />
+				<xs:element name="Description" codegen:typedName="Description" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

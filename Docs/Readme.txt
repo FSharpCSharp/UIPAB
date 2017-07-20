@@ -1,16 +1,16 @@
-# User Interface Process Application Block, version 2.0
+User Interface Process Application Block, version 2.0
+----------------------------------------------------------
 
-
-# Requirements
-
+Requirements
+------------
 - Microsoft(R) .NET Framework version 1.1
 - Microsoft Visual Studio(R) 2003 development system
 - Microsoft SQL Server(TM) 2000 or Microsoft SQL Server 2000 Desktop Engine (MSDE 2000)
 - Internet Information Services version 5.0 or later
 
 
-# Installation
-
+Installation
+-------------
 
 ****** If you plan to install the databases used by the QuickStarts, you must first modify the InstallDB.cmd and 
        UninstallDB.cmd files located in the <installation location>\User Interface Process 2.0\Scripts\ folder so that 
@@ -45,7 +45,7 @@ This does the following:
    implementations. The secure persistence providers use this key to encrypt state data.
 
 
-# Uninstallation
+Uninstallation
 ---------------
 
 Uninstall the UIP QuickStarts in one of the following ways:
@@ -65,8 +65,8 @@ This does the following:
 3.  Optional - Removes the registry key.
 
  
-# QuickStarts (located in the <installation location>\QuickStarts\<language> directory)
-
+QuickStarts (located in the <installation location>\QuickStarts\<language> directory)
+---------------------------------------------------------------
 – AdvancedHostDemo QuickStart: Demonstrates the use of user controls and transitioning between user controls in a 
   Windows Forms application. It also demonstrates floating windows and the extensible configuration schema 
   functionality by adding custom attributes to the <views> section of the configuration file.
@@ -91,7 +91,8 @@ This does the following:
   particular view.
 
 
-# Troubleshooting and Known Issues
+Troubleshooting and Known Issues
+---------------------------------
 
 1. MSDE SQL server instance name issue: If the SQL server instance name for your MSDE is [MachineName\VSDOTNET], 
    you will need to set the connectionString / Server attribute when you run the Store or NoNavGraph QuickStarts that use 

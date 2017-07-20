@@ -1,0 +1,1 @@
+Sample data was originally present in this folder. But since these are nowadays no longer to be installed, they no longer exist.

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="RES_ExceptionCantCreateStatePersistenceProvider">
+		<value>The state persistence provider {0} cannot be created. Check the /configuration/uipConfiguration/objectTypes/statePersistenceProvider node in the application config file (AssemblyFileName.config or web.config). This node must be like &lt;statePersistenceProvider name="SqlServerPersistState" type="Microsoft.ApplicationBlocks.UIProcess.SqlPersistState, Microsoft.ApplicationBlocks.UIProcess" connectionString="Connection"&gt;&lt;/statePersistenceProvider&gt;</value>
+	</data>
+	<data name="RES_ExceptionCantCreateState">
+		<value>The state object {0} cannot be created. Check the /configuration/uipConfiguration/objectTypes/state node in the application config file (AssemblyFileName.config or web.config). This node must be like &lt;state name="State" type="Microsoft.ApplicationBlocks.UIProcess.State, Microsoft.ApplicationBlocks.UIProcess" &gt;&lt;/state&gt;</value>
+	</data>
+	<data name="RES_ExceptionUIPConfigNotFound">
+		<value>The user process configuration section is not configured. Check the /configuration/uipConfiguration node in the application config file (AssemblyFileName.config or web.config). </value>
+	</data>
+	<data name="RES_ExceptionIViewManagerNotFound">
+		<value>The view manager related to the navigation graph {0} is not configured. Check the /configuration/uipConfiguration/objectTypes/iViewManager node in the application config file (AssemblyFileName.config or web.config). </value>
+	</data>
+	<data name="RES_ExceptionControllerNotFound">
+		<value>The controller related to the navigation graph {0} is not configured. Check the /configuration/uipConfiguration/objectTypes/controller node in the application config file (AssemblyFileName.config or web.config). </value>
+	</data>
+	<data name="RES_ExceptionLoadUIPConfig">
+		<value>Error loading UIP config parameters. </value>
+	</data>
+	<data name="RES_ExceptionSQLStatePersistenceProviderInit">
+		<value>Error initializing the SQL state persistence provider. Parameter {0} </value>
+	</data>
+	<data name="RES_ExceptionSQLStatePersistenceProviderDehydrate">
+		<value>Can not save the specified state object</value>
+	</data>
+	<data name="RES_ExceptionSQLStatePersistenceProviderRehydrate">
+		<value>Can not load the specified state object</value>
+	</data>
+	<data name="RES_ExceptionStartViewConfigNotFound">
+		<value>The start view is not configured. Check the /configuration/uipConfiguration/navigationGraph node in the application config file (AssemblyFileName.config or web.config)</value>
+	</data>
+	<data name="RES_ExceptionViewConfigNotFound">
+		<value>The view {0} is not configured. Check the /configuration/uipConfiguration/views node in the application config file (AssemblyFileName.config or web.config). </value>
+	</data>
+	<data name="RES_ExceptionStatePersistenceProviderConfigNotFound">
+		<value>The state persistence provider for the navigation graph {0} is not configured. Check the /configuration/uipConfiguration/objectTypes/statePersistenceProvider node in the application config file (AssemblyFileName.config or web.config). </value>
+	</data>
+	<data name="RES_ExceptionCouldNotGetNextViewType">
+		<value>Given arguments NavigationGraph={0}, CurrentView={1}, and NavigateValue={2}, could not find next View name.  Check the config file to be sure that given the current parameters a next View can be derived correctly; be sure there is a navigateTo node corresponding to this combination of parameters. </value>
+	</data>
+	<data name="RES_ExceptionInvalidXmlAttributeValue">
+		<value>Could not load the xml configuration because the attribute "{0}" has a invalid value. Xml node "{1}"</value>
+	</data>
+	<data name="RES_ExceptionInvalidCacheExpirationInterval">
+		<value>The configured cache expiration interval is invalid</value>
+	</data>
+	<data name="RES_ExceptionSecureSqlProviderRegistryPermissions">
+		<value>You do not have the necessary registry read permissions to use this provider </value>
+	</data>
+	<data name="RES_ExceptionSecureSqlProviderSymmetricKey">
+		<value>Error trying to get the provider symmetric key from the registry</value>
+	</data>
+	<data name="RES_ExceptionSecureSqlProviderCantEncrypt">
+		<value>Can not encrypt the serialized state</value>
+	</data>
+	<data name="RES_ExceptionSecureSqlProviderCantDecrypt">
+		<value>Can not decrypt the serialized state</value>
+	</data>
+	<data name="RES_ExceptionCantInitializeController">
+		<value>The view {0} controller cannot be initialized.</value>
+	</data>
+	<data name="RES_ExceptionCantSetViewProperty">
+		<value>Error trying to set a custom property to the current view manager.</value>
+	</data>
+	<data name="RES_ExceptionCantActivateView">
+		<value>Can not activate the view {0}.</value>
+	</data>
+	<data name="RES_ExceptionCantGetSessionMoniker">
+		<value>Can not get the session moniker for the task {0}.</value>
+	</data>
+	<data name="RES_ExceptionCantCreateIViewManager">
+		<value>The IViewManager {0} cannot be created. Check the /configuration/uipConfiguration/objectTypes/iViewManager node in the application config file (AssemblyFileName.config or Web.config). This node must be like &lt;iViewManager name="WebFormViewManager" type="Microsoft.ApplicationBlocks.UIProcess.WebFormViewManager, Microsoft.ApplicationBlocks.UIProcess"&gt;&lt;/iViewManager&gt;</value>
+	</data>
+	<data name="RES_ExceptionCantLoadAssembly">
+		<value>The assembly {0} could not be loaded.  Please check that the assembly type is fully qualified and is of format that follows.  Also be sure that the version and public key token are correct.  The correct format is: type="Microsoft.ApplicationBlocks.UIProcess.Samples.AddressWizard.WizardController,   Microsoft.ApplicationBlocks.UIProcess.Samples.AddressWizard, Version=1.0.1.0, Culture=neutral, PublicKeyToken=d69d63db1380c14d"</value>
+	</data>
+	<data name="RES_ExceptionInvalidCastInCopyToArray">
+		<value>An invalid cast was produced when trying to copy the state to given System.Array</value>
+	</data>
+	<data name="RES_ExceptionIncorrectNumberOfItemsInTaskMonikerString">
+		<value>The specified task moniker string is invalid. It has an incorrect number of items. The task moniker string must have three items viz, navigationGraph, currentview and taskId.</value>
+	</data>
+	<data name="RES_ExceptionNullArrayInCopyToArray">
+		<value>Could not copy State hashtable members to given System.Array because the specified array is null</value>
+	</data>
+	<data name="RES_ExceptionInvalidArrayDimensionsInCopyToArray">
+		<value>Could not copy State hashtable members to given System.Array because the given array is not one-dimensional</value>
+	</data>
+	<data name="RES_ExceptionOutOfBoundsIndexInCopyToArray">
+		<value>Could not copy State hashtable members to given System.Array because the index is less than zero or exceeds the bounds of the array</value>
+	</data>
+	<data name="RES_ExceptionTaskNotFound">
+		<value>Task not found. Id: {0}</value>
+	</data>
+	<data name="RES_ExceptionBadTypeArgumentInFactory">
+		<value>The type names must be specified using the full type name and the 5 parts of the assembly name: typeName, assemblyName, version, publicToken, culture.</value>
+	</data>
+	<data name="RES_ExceptionDocumentNotValidated">
+		<value>The section for the UIP configuration does not conforms to the XMLSchema provided, please check the document to fix the document. The validation error message is: {0}.</value>
+	</data>
+	<data name="RES_ExceptionInvalidAbsoluteInterval">
+		<value>The absolute cache interval is invalid. It must not contain a day part.</value>
+	</data>
+	<data name="RES_ExceptionNavigationGraphNotFound">
+		<value>The navigation graph {0} is not configured. Check the /configuration/navigationGraph nodes in the application config file (AssemblyFileName.config or Web.config).</value>
+	</data>
+	<data name="RES_ExceptionStateConfigNotFound">
+		<value>The state object for the navigation graph {0} is not configured. Check the /configuration/uipConfiguration/objectTypes/state node in the application config file (AssemblyFileName.config or web.config). </value>
+	</data>
+	<data name="RES_ExceptionViewSettingAlreadyConfigured">
+		<value>The view has been configured several times. View name {0}</value>
+	</data>
+	<data name="RES_ExceptionCantCreateInstanceUsingActivate">
+		<value>An instance of the type {0} could not be loaded.  
+		Please check that the assembly type is fully qualified and is of the format: 
+		type="Microsoft.ApplicationBlocks.UIProcess.Samples.AddressWizard.WizardController,   Microsoft.ApplicationBlocks.UIProcess.Samples.AddressWizard, Version=1.0.1.0, Culture=neutral, PublicKeyToken=d69d63db1380c14d"
+		ANOTHER possibility is that the object creation failed during construction; be sure you have supplied the correct constructor
+		arguments, and that the type to be created has implemented the constructor overloads/overrides required</value>
+	</data>
+	<data name="RES_ExceptionStateNotInitialized">
+		<value>The state has not been initialized with a persistence provider. You must call the "Accept" method</value>
+	</data>
+	<data name="RES_ExceptionDuplicateNavigateGraphSharedTransition">
+		<value>The shared transition {0} has already been defined for the {1} navigation graph</value>
+	</data>
+	<data name="RES_ExceptionDuplicateGlobalSharedTransition">
+		<value>The global shared transition {0} has already been defined</value>
+	</data>
+	<data name="RES_ExceptionLayoutManagerNotFound">
+		<value>The layout manager {0} could not be found.</value>
+	</data>
+	<data name="RES_ExceptionConflictingFloatingWindowsAttribute">
+		<value>A view can not have both attribute {0} and {1} set to true.</value>
+	</data>
+	<data name="RES_ExceptionCantGetTypeFromAssembly">
+		<value>The type {0} could not be found in assembly {1}.</value>
+	</data>
+	<data name="RES_ExceptionHostedControlsNotFound">
+		<value>The hosted controls element {0} is not configured. Check the /configuration/hostedControls nodes in the application config file (AssemblyFileName.config or Web.config).</value>
+	</data>
+	<data name="RES_ExceptionWizardViewManagerIsRequired">
+		<value>The WizardNavigator has to use a viewmanager that is either of type of WizardViewManager or inheritance from WizardViewManager</value>
+	</data>
+	<data name="RES_ExceptionFirstExceptionMessage">
+		<value>The original exception is: {0} {1}</value>
+	</data>
+	<data name="RES_ExceptionInvalidWizardName">
+		<value>Wizard name is invalid.</value>
+	</data>
+</root>

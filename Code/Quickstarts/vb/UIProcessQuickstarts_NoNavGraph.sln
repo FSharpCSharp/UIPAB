@@ -1,0 +1,112 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinUI.Launcher", "UIProcessQuickstarts_NoNavGraph\WinUI.Launcher\WinUI.Launcher.vbproj", "{555933DE-A821-4D63-B879-9727FF8AAF64}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusinessEntity", "UIProcessQuickstarts_NoNavGraph\BusinessEntity\BusinessEntity.vbproj", "{51A98952-C7F5-4CD7-934A-D05838CBB2CE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusinessObject", "UIProcessQuickstarts_NoNavGraph\BusinessObject\BusinessObject.vbproj", "{D480079A-F906-472E-B6F4-9C61C149F7BE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Common", "UIProcessQuickstarts_NoNavGraph\Common\Common.vbproj", "{1256045C-6204-4C6F-9637-958C2A37A711}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataAccessLayer", "UIProcessQuickstarts_NoNavGraph\DataAccessLayer\DataAccessLayer.vbproj", "{D646F86F-928F-4E74-8C4C-3DEB7A8DD20B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinUI", "UIProcessQuickstarts_NoNavGraph\WinUI\WinUI.vbproj", "{073B3FFF-814E-47CE-9114-3F3981900DD4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ApplicationBlocks.UIProcess", "..\..\Microsoft.ApplicationBlocks.UIProcess\Microsoft.ApplicationBlocks.UIProcess.csproj", "{A775222D-A004-4601-A8A8-F6E8EA2348D5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ApplicationBlocks.Data", "..\..\Microsoft.ApplicationBlocks.Data\Microsoft.ApplicationBlocks.Data.csproj", "{30933672-466E-4F67-A111-ABF267539146}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug__mstuart__02272003_refactoring = Debug__mstuart__02272003_refactoring
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{51A98952-C7F5-4CD7-934A-D05838CBB2CE}.Debug.ActiveCfg = Debug|.NET
+		{51A98952-C7F5-4CD7-934A-D05838CBB2CE}.Debug.Build.0 = Debug|.NET
+		{51A98952-C7F5-4CD7-934A-D05838CBB2CE}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug|.NET
+		{51A98952-C7F5-4CD7-934A-D05838CBB2CE}.Debug__mstuart__02272003_refactoring.Build.0 = Debug|.NET
+		{51A98952-C7F5-4CD7-934A-D05838CBB2CE}.Release.ActiveCfg = Release|.NET
+		{51A98952-C7F5-4CD7-934A-D05838CBB2CE}.Release.Build.0 = Release|.NET
+		{D480079A-F906-472E-B6F4-9C61C149F7BE}.Debug.ActiveCfg = Debug|.NET
+		{D480079A-F906-472E-B6F4-9C61C149F7BE}.Debug.Build.0 = Debug|.NET
+		{D480079A-F906-472E-B6F4-9C61C149F7BE}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug|.NET
+		{D480079A-F906-472E-B6F4-9C61C149F7BE}.Debug__mstuart__02272003_refactoring.Build.0 = Debug|.NET
+		{D480079A-F906-472E-B6F4-9C61C149F7BE}.Release.ActiveCfg = Release|.NET
+		{D480079A-F906-472E-B6F4-9C61C149F7BE}.Release.Build.0 = Release|.NET
+		{1256045C-6204-4C6F-9637-958C2A37A711}.Debug.ActiveCfg = Debug|.NET
+		{1256045C-6204-4C6F-9637-958C2A37A711}.Debug.Build.0 = Debug|.NET
+		{1256045C-6204-4C6F-9637-958C2A37A711}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug|.NET
+		{1256045C-6204-4C6F-9637-958C2A37A711}.Debug__mstuart__02272003_refactoring.Build.0 = Debug|.NET
+		{1256045C-6204-4C6F-9637-958C2A37A711}.Release.ActiveCfg = Release|.NET
+		{1256045C-6204-4C6F-9637-958C2A37A711}.Release.Build.0 = Release|.NET
+		{D646F86F-928F-4E74-8C4C-3DEB7A8DD20B}.Debug.ActiveCfg = Debug|.NET
+		{D646F86F-928F-4E74-8C4C-3DEB7A8DD20B}.Debug.Build.0 = Debug|.NET
+		{D646F86F-928F-4E74-8C4C-3DEB7A8DD20B}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug|.NET
+		{D646F86F-928F-4E74-8C4C-3DEB7A8DD20B}.Debug__mstuart__02272003_refactoring.Build.0 = Debug|.NET
+		{D646F86F-928F-4E74-8C4C-3DEB7A8DD20B}.Release.ActiveCfg = Release|.NET
+		{D646F86F-928F-4E74-8C4C-3DEB7A8DD20B}.Release.Build.0 = Release|.NET
+		{073B3FFF-814E-47CE-9114-3F3981900DD4}.Debug.ActiveCfg = Debug|.NET
+		{073B3FFF-814E-47CE-9114-3F3981900DD4}.Debug.Build.0 = Debug|.NET
+		{073B3FFF-814E-47CE-9114-3F3981900DD4}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug|.NET
+		{073B3FFF-814E-47CE-9114-3F3981900DD4}.Debug__mstuart__02272003_refactoring.Build.0 = Debug|.NET
+		{073B3FFF-814E-47CE-9114-3F3981900DD4}.Release.ActiveCfg = Release|.NET
+		{073B3FFF-814E-47CE-9114-3F3981900DD4}.Release.Build.0 = Release|.NET
+		{555933DE-A821-4D63-B879-9727FF8AAF64}.Debug.ActiveCfg = Debug|.NET
+		{555933DE-A821-4D63-B879-9727FF8AAF64}.Debug.Build.0 = Debug|.NET
+		{555933DE-A821-4D63-B879-9727FF8AAF64}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug|.NET
+		{555933DE-A821-4D63-B879-9727FF8AAF64}.Debug__mstuart__02272003_refactoring.Build.0 = Debug|.NET
+		{555933DE-A821-4D63-B879-9727FF8AAF64}.Release.ActiveCfg = Release|.NET
+		{555933DE-A821-4D63-B879-9727FF8AAF64}.Release.Build.0 = Release|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Debug.ActiveCfg = Debug|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Debug.Build.0 = Debug|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug__mstuart__02272003_refactoring|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Debug__mstuart__02272003_refactoring.Build.0 = Debug__mstuart__02272003_refactoring|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Release.ActiveCfg = Release|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Release.Build.0 = Release|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Debug.ActiveCfg = Debug|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Debug.Build.0 = Debug|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Debug__mstuart__02272003_refactoring.Build.0 = Debug|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Release.ActiveCfg = Release|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Release.Build.0 = Release|.NET
+		{CAE176C6-C47A-49F0-B0B0-11311BB84D3B}.Debug.ActiveCfg = Debug|.NET
+		{CAE176C6-C47A-49F0-B0B0-11311BB84D3B}.Debug.Build.0 = Debug|.NET
+		{CAE176C6-C47A-49F0-B0B0-11311BB84D3B}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug|.NET
+		{CAE176C6-C47A-49F0-B0B0-11311BB84D3B}.Debug__mstuart__02272003_refactoring.Build.0 = Debug|.NET
+		{CAE176C6-C47A-49F0-B0B0-11311BB84D3B}.Release.ActiveCfg = Release|.NET
+		{CAE176C6-C47A-49F0-B0B0-11311BB84D3B}.Release.Build.0 = Release|.NET
+		{41E8FE67-CE72-4886-ADEB-BACCBE9FC972}.Debug.ActiveCfg = Debug|.NET
+		{41E8FE67-CE72-4886-ADEB-BACCBE9FC972}.Debug.Build.0 = Debug|.NET
+		{41E8FE67-CE72-4886-ADEB-BACCBE9FC972}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug|.NET
+		{41E8FE67-CE72-4886-ADEB-BACCBE9FC972}.Debug__mstuart__02272003_refactoring.Build.0 = Debug|.NET
+		{41E8FE67-CE72-4886-ADEB-BACCBE9FC972}.Release.ActiveCfg = Release|.NET
+		{41E8FE67-CE72-4886-ADEB-BACCBE9FC972}.Release.Build.0 = Release|.NET
+		{9E3271C2-93CF-4146-8A1D-F8844FEEEA66}.Debug.ActiveCfg = Debug|.NET
+		{9E3271C2-93CF-4146-8A1D-F8844FEEEA66}.Debug.Build.0 = Debug|.NET
+		{9E3271C2-93CF-4146-8A1D-F8844FEEEA66}.Debug__mstuart__02272003_refactoring.ActiveCfg = Debug|.NET
+		{9E3271C2-93CF-4146-8A1D-F8844FEEEA66}.Debug__mstuart__02272003_refactoring.Build.0 = Debug|.NET
+		{9E3271C2-93CF-4146-8A1D-F8844FEEEA66}.Release.ActiveCfg = Release|.NET
+		{9E3271C2-93CF-4146-8A1D-F8844FEEEA66}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

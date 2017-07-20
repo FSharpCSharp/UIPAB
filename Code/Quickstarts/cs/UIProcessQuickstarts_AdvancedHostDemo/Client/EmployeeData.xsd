@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="EmployeeData" targetNamespace="http://tempuri.org/EmployeeData.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/EmployeeData.xsd" xmlns:mstns="http://tempuri.org/EmployeeData.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="EmployeeData" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Person">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Id" type="xs:long" minOccurs="0" />
+							<xs:element name="FirstName" type="xs:string" minOccurs="0" />
+							<xs:element name="LastName" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Address">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Id" type="xs:long" minOccurs="0" />
+							<xs:element name="Street" type="xs:string" minOccurs="0" />
+							<xs:element name="City" type="xs:string" minOccurs="0" />
+							<xs:element name="State" type="xs:string" minOccurs="0" />
+							<xs:element name="Zip" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PersonAddress">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Type" type="xs:string" minOccurs="0" />
+							<xs:element name="PersonId" type="xs:long" minOccurs="0" />
+							<xs:element name="AddressId" type="xs:long" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Phone">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonId" type="xs:long" minOccurs="0" />
+							<xs:element name="AreaCode" type="xs:string" minOccurs="0" />
+							<xs:element name="PhoneNumber" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="PersonId">
+			<xs:selector xpath=".//mstns:Person" />
+			<xs:field xpath="mstns:Id" />
+		</xs:key>
+		<xs:key name="AddressId">
+			<xs:selector xpath=".//mstns:Address" />
+			<xs:field xpath="mstns:Id" />
+		</xs:key>
+		<xs:key name="WorkAddressId">
+			<xs:selector xpath=".//mstns:Address" />
+			<xs:field xpath="mstns:Id" />
+		</xs:key>
+		<xs:keyref name="PersonPersonAddress" refer="PersonId">
+			<xs:selector xpath=".//mstns:PersonAddress" />
+			<xs:field xpath="mstns:PersonId" />
+		</xs:keyref>
+		<xs:keyref name="AddressPersonAddress" refer="AddressId">
+			<xs:selector xpath=".//mstns:PersonAddress" />
+			<xs:field xpath="mstns:AddressId" />
+		</xs:keyref>
+		<xs:keyref name="PersonPhone" refer="PersonId">
+			<xs:selector xpath=".//mstns:Phone" />
+			<xs:field xpath="mstns:PersonId" />
+		</xs:keyref>
+		<xs:key name="PhoneKey" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Phone" />
+			<xs:field xpath="mstns:PersonId" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

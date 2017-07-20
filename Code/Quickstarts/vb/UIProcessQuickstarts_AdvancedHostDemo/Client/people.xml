@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="yes"?>
+<EmployeeData xmlns="http://tempuri.org/EmployeeData.xsd">
+  <Person>
+    <Id>1</Id>
+    <FirstName>Foo</FirstName>
+    <LastName>Bar</LastName>
+  </Person>
+  <Person>
+    <Id>2</Id>
+    <FirstName>John</FirstName>
+    <LastName>Doe</LastName>
+  </Person>
+  <Person>
+    <Id>3</Id>
+    <FirstName>Jane</FirstName>
+    <LastName>Doe</LastName>
+  </Person>
+  <Address>
+    <Id>1</Id>
+    <Street>123 Work street</Street>
+    <City>Chicago</City>
+    <State>IL</State>
+    <Zip>60661</Zip>
+  </Address>
+  <Address>
+    <Id>2</Id>
+    <Street>456 Home Street</Street>
+    <City>Evanston</City>
+    <State>IB</State>
+    <Zip>60202</Zip>
+  </Address>
+  <Address>
+    <Id>3</Id>
+    <Street>222 Miles street</Street>
+    <City>Chicago</City>
+    <State>IL</State>
+    <Zip>60661</Zip>
+  </Address>
+  <Address>
+    <Id>4</Id>
+    <Street>333 Long Street</Street>
+    <City>Evanston</City>
+    <State>IL</State>
+    <Zip>60202</Zip>
+  </Address>
+  <Address>
+    <Id>5</Id>
+    <Street>1 Park Street</Street>
+    <City>Calagry</City>
+    <State>AB</State>
+    <Zip>T2S 3C7</Zip>
+  </Address>
+  <Address>
+    <Id>6</Id>
+    <Street>667 1st Avenue</Street>
+    <City>Calgary</City>
+    <State>AB</State>
+    <Zip>T2S 2T2</Zip>
+  </Address>
+  <PersonAddress>
+    <Type>work</Type>
+    <PersonId>1</PersonId>
+    <AddressId>1</AddressId>
+  </PersonAddress>
+  <PersonAddress>
+    <Type>home</Type>
+    <PersonId>1</PersonId>
+    <AddressId>2</AddressId>
+  </PersonAddress>
+  <PersonAddress>
+    <Type>work</Type>
+    <PersonId>2</PersonId>
+    <AddressId>3</AddressId>
+  </PersonAddress>
+  <PersonAddress>
+    <Type>home</Type>
+    <PersonId>2</PersonId>
+    <AddressId>4</AddressId>
+  </PersonAddress>
+  <PersonAddress>
+    <Type>work</Type>
+    <PersonId>3</PersonId>
+    <AddressId>6</AddressId>
+  </PersonAddress>
+  <PersonAddress>
+    <Type>home</Type>
+    <PersonId>3</PersonId>
+    <AddressId>5</AddressId>
+  </PersonAddress>
+  <Phone>
+	<PersonId>1</PersonId>
+	<AreaCode>312</AreaCode>
+	<PhoneNumber>555-1234</PhoneNumber>
+  </Phone>
+  <Phone>
+	<PersonId>2</PersonId>
+	<AreaCode>312</AreaCode>
+	<PhoneNumber>555-0000</PhoneNumber>
+  </Phone>
+  <Phone>
+	<PersonId>3</PersonId>
+	<AreaCode>403</AreaCode>
+	<PhoneNumber>555-1111</PhoneNumber>
+  </Phone>
+</EmployeeData>

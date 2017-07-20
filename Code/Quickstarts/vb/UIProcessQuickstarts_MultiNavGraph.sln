@@ -1,0 +1,58 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MultiNavGraph.Launcher", "UIProcessQuickstarts_MultiNavGraph\MultiNavGraph.Launcher\MultiNavGraph.Launcher.vbproj", "{0C75E28E-6C5C-41F9-B1EB-A631D5A24D18}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ApplicationBlocks.UIProcess", "..\..\Microsoft.ApplicationBlocks.UIProcess\Microsoft.ApplicationBlocks.UIProcess.csproj", "{A775222D-A004-4601-A8A8-F6E8EA2348D5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ApplicationBlocks.Data", "..\..\Microsoft.ApplicationBlocks.Data\Microsoft.ApplicationBlocks.Data.csproj", "{30933672-466E-4F67-A111-ABF267539146}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UIProcessQuickstarts_MultiNavGraph", "UIProcessQuickstarts_MultiNavGraph\UIProcessQuickstarts_MultiNavGraph.vbproj", "{73BB1F9A-9EA4-487A-A119-BCB114EF992D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Debug.ActiveCfg = Debug|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Debug.Build.0 = Debug|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Release.ActiveCfg = Release|.NET
+		{A775222D-A004-4601-A8A8-F6E8EA2348D5}.Release.Build.0 = Release|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Debug.ActiveCfg = Debug|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Debug.Build.0 = Debug|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Release.ActiveCfg = Release|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Release.Build.0 = Release|.NET
+		{41E8FE67-CE72-4886-ADEB-BACCBE9FC972}.Debug.ActiveCfg = Debug|.NET
+		{41E8FE67-CE72-4886-ADEB-BACCBE9FC972}.Debug.Build.0 = Debug|.NET
+		{41E8FE67-CE72-4886-ADEB-BACCBE9FC972}.Release.ActiveCfg = Release|.NET
+		{41E8FE67-CE72-4886-ADEB-BACCBE9FC972}.Release.Build.0 = Release|.NET
+		{9E3271C2-93CF-4146-8A1D-F8844FEEEA66}.Debug.ActiveCfg = Debug|.NET
+		{9E3271C2-93CF-4146-8A1D-F8844FEEEA66}.Debug.Build.0 = Debug|.NET
+		{9E3271C2-93CF-4146-8A1D-F8844FEEEA66}.Release.ActiveCfg = Release|.NET
+		{9E3271C2-93CF-4146-8A1D-F8844FEEEA66}.Release.Build.0 = Release|.NET
+		{73BB1F9A-9EA4-487A-A119-BCB114EF992D}.Debug.ActiveCfg = Debug|.NET
+		{73BB1F9A-9EA4-487A-A119-BCB114EF992D}.Debug.Build.0 = Debug|.NET
+		{73BB1F9A-9EA4-487A-A119-BCB114EF992D}.Release.ActiveCfg = Release|.NET
+		{73BB1F9A-9EA4-487A-A119-BCB114EF992D}.Release.Build.0 = Release|.NET
+		{0C75E28E-6C5C-41F9-B1EB-A631D5A24D18}.Debug.ActiveCfg = Debug|.NET
+		{0C75E28E-6C5C-41F9-B1EB-A631D5A24D18}.Debug.Build.0 = Debug|.NET
+		{0C75E28E-6C5C-41F9-B1EB-A631D5A24D18}.Release.ActiveCfg = Release|.NET
+		{0C75E28E-6C5C-41F9-B1EB-A631D5A24D18}.Release.Build.0 = Release|.NET
+		{DB9B8AA9-3AAF-4053-881A-E3AF20566BB1}.Debug.ActiveCfg = Debug|.NET
+		{DB9B8AA9-3AAF-4053-881A-E3AF20566BB1}.Debug.Build.0 = Debug|.NET
+		{DB9B8AA9-3AAF-4053-881A-E3AF20566BB1}.Release.ActiveCfg = Release|.NET
+		{DB9B8AA9-3AAF-4053-881A-E3AF20566BB1}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
